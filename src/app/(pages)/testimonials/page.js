@@ -1,5 +1,12 @@
+import Transition from "@/app/components/Transition";
+
 const Testimonials = () => {
-  return <div>Testimonials</div>;
+  return (
+    <div>
+      <Transition />
+      Testimonials
+    </div>
+  );
 };
 
 export default Testimonials;

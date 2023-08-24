@@ -1,8 +1,18 @@
+"use client";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import TopLeftImg from "./components/TopLeftImg";
 import "@/styles/globals.css";
 import { Inter, Sora } from "next/font/google";
+
+// components
+import Transition from "./components/Transition";
+
+//router
+import { useRouter } from "next/navigation";
+
+//  farmer motion
+import { AnimatePresence, motion } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 const sora = Sora({
@@ -17,15 +27,20 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const router = useRouter();
   return (
     <html lang="en">
       <body
         className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
       >
-        <TopLeftImg />
-        <Nav />
-        <Header />
-        {children}
+        <AnimatePresence mode="wait">
+          <motion.div key={router.route} className="h-full">
+            <TopLeftImg />
+            <Nav />
+            <Header />
+            {children}
+          </motion.div>
+        </AnimatePresence>
       </body>
     </html>
   );

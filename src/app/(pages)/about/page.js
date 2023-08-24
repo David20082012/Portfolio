@@ -1,4 +1,5 @@
 // icons
+import Transition from "@/app/components/Transition";
 import {
   FaHtml5,
   FaCss3,
@@ -88,7 +89,12 @@ const aboutData = [
 ];
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Transition />
+      About
+    </div>
+  );
 };
 
 export default About;

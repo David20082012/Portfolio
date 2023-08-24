@@ -1,5 +1,12 @@
+import Transition from "@/app/components/Transition";
+
 const Services = () => {
-  return <div>Services</div>;
+  return (
+    <div>
+      <Transition />
+      Services
+    </div>
+  );
 };
 
 export default Services;
