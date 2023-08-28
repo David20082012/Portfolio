@@ -8,8 +8,8 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-  useFileSystemPublicRoutes: true,
-  distDir: "build",
+  // useFileSystemPublicRoutes: true,
+  // distDir: "build",
 };
 
 module.exports = nextConfig;
