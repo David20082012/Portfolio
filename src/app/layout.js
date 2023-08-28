@@ -21,10 +21,10 @@ const sora = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-export const metadata = {
-  title: "Create My Portfolio",
-  description: "Divo Codes Portfolio",
-};
+// export const metadata = {
+//   title: "Create My Portfolio",
+//   description: "Divo Codes Portfolio",
+// };
 
 export default function RootLayout({ children }) {
   const router = useRouter();
