@@ -5,6 +5,8 @@ import TopLeftImg from "./components/TopLeftImg";
 import "@/styles/globals.css";
 import { Inter, Sora } from "next/font/google";
 
+import someImage from "../../public/site-bg.svg";
+
 // components
 import Transition from "./components/Transition";
 
@@ -31,7 +33,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`page bg-[url('/public/site-bg.svg')] text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
+        className={`page bg-[url(${someImage})] text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
       >
         <AnimatePresence mode="wait">
           <motion.div key={router.route} className="h-full">
