@@ -31,10 +31,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`page bg-[url('https://david20082012.github.io/Portfolio/public/site-bg.svg')] text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
+        className={`page bg-[url('https://github.com/David20082012/Portfolio/Portfolio/public/site-bg.svg')] text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
       >
         <AnimatePresence mode="wait">
           <motion.div key={router.route} className="h-full">
+            public/site-bg.svg
             <TopLeftImg />
             <Nav />
             <Header />
