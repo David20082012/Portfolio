@@ -9,9 +9,9 @@ import { fadeIn } from "../../../../variants";
 const Work = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-centere">
-      <Transition />
-      <Circles />
       <div className="container mx-auto flex flex-col justify-center ">
+        <Transition />
+        <Circles />
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center flex flex-col lg:text-left xl:w-[30vw] mb-4 xl:mb-0">
