@@ -92,12 +92,16 @@ const Header = () => {
                 fill="#FFFFFF"
                 transform="translate(205,41)"
                 variants={pathVariants}
+                initial="hidden"
+                animate="visible"
               />
               <motion.path
                 d="M0 0 C5.61 0 11.22 0 17 0 C17 5.61 17 11.22 17 17 C11.39 17 5.78 17 0 17 C0 11.39 0 5.78 0 0 Z "
                 fill="#FEFEFE"
                 transform="translate(203,13)"
                 variants={pathVariants}
+                initial="hidden"
+                animate="visible"
               />
             </motion.svg>
           </Link>
