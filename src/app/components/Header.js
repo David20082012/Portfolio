@@ -26,13 +26,12 @@ const Header = () => {
     <header className="absolute z-30 w-full flex justify-center px-16 xl:px-0 xl:h-[90px]">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
-          <div className="w-[48px] h-[220px]">
+          <div className="max-w-[300px] max-h-[300px]">
             <motion.svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              width="300"
-              height="300"
-              scale={0.2}
+              width="2712"
+              height="2056"
               initial="hidden"
               animate="visible"
             >
