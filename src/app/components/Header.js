@@ -41,6 +41,15 @@ const Header = () => {
                 transform="translate(220.90625,61.25)"
                 variants={pathVariants}
               />
+              <motion.rect
+                width="140"
+                height="140"
+                x="410"
+                y="430"
+                rx="20"
+                stroke="#ff0055"
+                variants={pathVariants}
+              />
             </motion.svg>
           </div>
 
