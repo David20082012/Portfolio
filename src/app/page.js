@@ -46,7 +46,7 @@ export default function Home() {
               mockups.
             </motion.p>
             {/* btn */}
-            <div className="flex justify-center xl:hidden relative">
+            <div className="flex justify-center xl:hidden relative z-50">
               <ProjectsBtn />
             </div>
 
