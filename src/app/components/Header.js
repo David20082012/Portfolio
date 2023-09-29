@@ -13,7 +13,7 @@ const Header = () => {
           {/* logo */}
           <Link href={"/"}>
             <Image
-              src={"./MyLogoPNG.svg"}
+              src={"./MyLogoPNGCodes.svg"}
               width={220}
               height={48}
               alt=""
