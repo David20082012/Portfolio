@@ -13,7 +13,7 @@ const Header = () => {
           {/* logo */}
           <Link href={"/"}>
             <Image
-              src={"./logo.svg"}
+              src={"./DivoCodeLogo.svg"}
               width={220}
               height={48}
               alt=""
