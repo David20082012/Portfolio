@@ -35,7 +35,6 @@ export default function RootLayout({ children }) {
       >
         <AnimatePresence mode="wait">
           <motion.div key={router.route} className="h-full">
-            public/site-bg.svg
             <TopLeftImg />
             <Nav />
             <Header />
