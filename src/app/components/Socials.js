@@ -12,7 +12,7 @@ const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-lg">
       <Link
-        href={""}
+        href={"https://www.youtube.com/channel/UCvpPE9w5M-QErBualC1wBkA"}
         className=" hover:text-accent transition-all duration-300"
       >
         <RiYoutubeLine />
@@ -29,7 +29,7 @@ const Socials = () => {
       >
         <RiFacebookLine />
       </Link>
-      <Link
+      {/* <Link
         href={""}
         className=" hover:text-accent transition-all duration-300"
       >
@@ -40,7 +40,7 @@ const Socials = () => {
         className=" hover:text-accent transition-all duration-300"
       >
         <RiBehanceLine />
-      </Link>
+      </Link> */}
       <Link
         href={""}
         className=" hover:text-accent transition-all duration-300"
