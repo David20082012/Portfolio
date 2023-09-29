@@ -36,7 +36,7 @@ const Header = () => {
               priority={true}
             /> */}
 
-            <svg
+            <motion.svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               width="1125"
@@ -99,7 +99,7 @@ const Header = () => {
                 transform="translate(203,13)"
                 variants={pathVariants}
               />
-            </svg>
+            </motion.svg>
           </Link>
 
           {/* socials */}
